@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .right-links {
+    display: flex;
+    gap: 16px;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.content-section-1 h3 {
+    text-align: center;
+}
+
+.image-containers {
+    display: flex;
+    gap: 16px;
+}
+
+/* border: 2px solid blue; */
+.image-container {
+    text-align: center;
+}
+
+.quote-author {
+    text-align: right;
+}
+
+.content-section-3 {
+
+}
+
+.signup-container {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
